@@ -159,7 +159,7 @@ class ConfusionMatrix(object):
             else:
                 print("class:", self.labels[i],
                   "      Recall:",  0,
-                  "      Precision:",  round(tp / (tp + fn), self.decimal),
+                  "      Precision:",  0,
                   "      Specificity:", round(tn / (tn + fp), self.decimal))               
 
     #==========================================================================================#

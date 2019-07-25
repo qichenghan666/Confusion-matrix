@@ -239,9 +239,9 @@ class ConfusionMatrix(object):
 if __name__ == "__main__":
 
     
-#    y_true = ['2', '0', '0', '1', '2', '0']
-#    y_pred = ['2', '0', '0', '1', '2', '1'] 
-    y_pred, y_true = load_csv_file('./results-all.csv')
+    y_true = ['2', '0', '0', '1', '2', '0']
+    y_pred = ['2', '0', '0', '1', '2', '1'] 
+#    y_pred, y_true = load_csv_file('./results-all.csv')
     c = ConfusionMatrix(y_true, y_pred)
     c.level_2()
 
